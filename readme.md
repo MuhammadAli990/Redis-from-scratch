@@ -23,10 +23,10 @@ I mean, it's not meant for production, but it was a fun project and is perfect f
 
 - **SET / GET / DEL** – Basic key-value operations (currently supports strings only)
 - **TTL (Time To Live)** – Setting expiration times for keys.
-- **Lazy expiration** – Keys expire only when accessed.
+- **Expiration handling** – Supports both lazy expiration (on access) and active expiration via a background scheduler.
 - **Snapshots** – Persisting in-memory data to disk.
 - **Background schedulers** – Handling asynchronous tasks.
-- **Memory eviction** – Strategies for freeing up memory when limits are reached.
+- **Memory eviction** – Strategies for freeing up memory when limits are reached (FIFO)
 
 ---
 
